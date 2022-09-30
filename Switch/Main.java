@@ -12,7 +12,8 @@ public class Main
             num *= num;
         }
 
-        else if (num >= 0 && num * num < 20) {
+        else if (num >= 0 && num * num < 20)
+        {
             num /= 2;
         }
 
