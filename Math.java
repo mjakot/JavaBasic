@@ -19,16 +19,4 @@ public class Math
 
         return num;
     }
-    
-    public static boolean isInCircle(int radius, int[] xy)
-    {
-        if (xy.length != 2)
-        {
-            return false;
-        }
-
-        float circumference = 2*(3.14f * radius);
-
-        return circumference > xy[0] && circumference > xy[1];
-    }
 }
